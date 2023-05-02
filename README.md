@@ -19,7 +19,7 @@ The code implements Regular $2k$-Directional Polygon Algorithm to find the conve
 >        julia -t numberOfThreads main_ch_32_Directions.jl
 
 ### Note
-Creat a file "result" in this directory
+Creat a file "result" in the directory containing the code
 
 ### Setting
 - Benchmarking mode

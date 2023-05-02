@@ -54,8 +54,8 @@ function main()
             points = hcat(data[1 : data_sizes[i], 1], data[1 : data_sizes[i], 2])
             if benchmarking
                 # https://discourse.julialang.org/t/output-of-benchmark-to-string-or-table/27977/4
-                # call atmost 30 times until execution time of 10000 is reached
-                # create report ignoring the worst 10 runs
+                # call atmost 25 times until execution time of 10000 is reached
+                # create report ignoring the worst 5 runs
 
 
                 bm_ch_16_Directions = run(@benchmarkable ch_16_Directions($points) samples=25 seconds=10000)

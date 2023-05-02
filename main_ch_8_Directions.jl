@@ -20,9 +20,7 @@ end
 function main()
     k = 8
     setNumbers = 30
-    #k = number of polygon containing the data
-    #data_sizes = [1000]
-    data_sizes = [1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000, 50000000]
+    data_sizes = [1000, 5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000, 50000000, 100000000]
     rectangleData_sizes = data_sizes*2
 
     instanceNames = Vector{String}(undef, length(data_sizes)*setNumbers)
